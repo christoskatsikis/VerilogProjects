@@ -1,0 +1,39 @@
+//Copyright (C)2014-2025 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//Tool Version: V1.9.11.03 Education
+//Part Number: GW5A-LV25MG121NC1/I0
+//Device: GW5A-25
+//Device Version: A
+//Created Time: Sun 11 22 19:05:03 2026
+
+IO_LOC "o_led" A11;
+IO_PORT "o_led" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "o_sel" C10;
+IO_PORT "o_sel" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "o_digitalTube[6]" B10;
+IO_PORT "o_digitalTube[6]" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "o_digitalTube[5]" B11;
+IO_PORT "o_digitalTube[5]" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "o_digitalTube[4]" C11;
+IO_PORT "o_digitalTube[4]" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "o_digitalTube[3]" D10;
+IO_PORT "o_digitalTube[3]" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "o_digitalTube[2]" D11;
+IO_PORT "o_digitalTube[2]" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "o_digitalTube[1]" G11;
+IO_PORT "o_digitalTube[1]" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "o_digitalTube[0]" G10;
+IO_PORT "o_digitalTube[0]" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "i_buttons[3]" J5;
+IO_PORT "i_buttons[3]" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+IO_LOC "i_buttons[2]" H7;
+IO_PORT "i_buttons[2]" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+IO_LOC "i_buttons[1]" G7;
+IO_PORT "i_buttons[1]" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+IO_LOC "i_buttons[0]" F5;
+IO_PORT "i_buttons[0]" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+IO_LOC "i_rst" H11;
+IO_PORT "i_rst" IO_TYPE=LVCMOS33 PULL_MODE=DOWN BANK_VCCIO=3.3;
+IO_LOC "i_realClk" E2;
+IO_PORT "i_realClk" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;

@@ -1,0 +1,25 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW5A-25A" pn="GW5A-LV25MG121NC1/I0">gw5a25a-002</Device>
+    <FileList>
+        <File path="src/CompleteCircuit.v" type="file.verilog" enable="1"/>
+        <File path="src/CompleteCircuitTB.v" type="file.verilog" enable="0"/>
+        <File path="src/ControlUnit.v" type="file.verilog" enable="1"/>
+        <File path="src/ControlUnitTB.v" type="file.verilog" enable="0"/>
+        <File path="src/DataPath.v" type="file.verilog" enable="1"/>
+        <File path="src/IncrementTB.v" type="file.verilog" enable="0"/>
+        <File path="src/InputIncrement.v" type="file.verilog" enable="1"/>
+        <File path="src/MicroProcessor.v" type="file.verilog" enable="1"/>
+        <File path="src/MicroProcessorTB.v" type="file.verilog" enable="0"/>
+        <File path="src/clock_divider.v" type="file.verilog" enable="0"/>
+        <File path="src/datapathALU.v" type="file.verilog" enable="1"/>
+        <File path="src/driver_Button.v" type="file.verilog" enable="1"/>
+        <File path="src/driver_DigitalTube.v" type="file.verilog" enable="1"/>
+        <File path="src/driver_buttonTB.v" type="file.verilog" enable="0"/>
+        <File path="src/fpga_project.cst" type="file.cst" enable="1"/>
+        <File path="src/fpga_project.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>
